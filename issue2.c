@@ -4,7 +4,7 @@
 
 int main(){
     int even = 0;
-    for(int i = 0; i <= 20; i++){
+    for(int even = 0; even<= 20; even++){
         even *= 2;
         printf("%d\t", even);
     }

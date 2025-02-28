@@ -4,7 +4,7 @@
 
 void sort(int a[], int b){
     for(int i = 0; i < b; i++){
-        for(int j = 1; j < b; j++){
+        for(int j = i+1; j < b; j++){
             if(a[i] > a[j]){
                 int temp = a[i];
                 a[i] = a[j];
@@ -20,6 +20,6 @@ int main(){
     sort(numbers, 6);
     
     for(int i = 0; i < 6; i++){
-        printf("%d", numbers[i]);
+        printf("%d ", numbers[i]);
     }
 }
